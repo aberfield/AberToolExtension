@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AberToolExtension'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of AberToolExtension.'
+  s.summary          = '一些常用的第三方工具类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here.一些常用的第三方工具类
                        DESC
 
   s.homepage         = 'https://github.com/aberfield/AberToolExtension'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'aberfield' => 'liufangyou521@163.com' }
   s.source           = { :git => 'https://github.com/aberfield/AberToolExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift.version    = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AberToolExtension/Classes/**/*'
