@@ -1,0 +1,16 @@
+PODS:
+  - AberToolExtension (0.1.0)
+
+DEPENDENCIES:
+  - AberToolExtension (from `../`)
+
+EXTERNAL SOURCES:
+  AberToolExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AberToolExtension: b0328b28e0edc2246a2075ca9185603d62aaa14f
+
+PODFILE CHECKSUM: a7b2a0ce5f2ec932e262ec67b572a02506a4b685
+
+COCOAPODS: 1.6.0.beta.1

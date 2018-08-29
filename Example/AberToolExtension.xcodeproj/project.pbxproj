@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		648F0BB3381278F081EC6BF9 /* Pods-AberToolExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AberToolExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AberToolExtension_Tests/Pods-AberToolExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79DC260156CB99FB8D12EC50 /* Pods-AberToolExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AberToolExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-AberToolExtension_Tests/Pods-AberToolExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D34E35AACED435619B55BFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D34E35AACED435619B55BFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A3EFDC8BB0BEF2EFB4ED6394 /* Pods_AberToolExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AberToolExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15879620E5EE8777FFCB9B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B70BBB513140054E38CBAA00 /* AberToolExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AberToolExtension.podspec; path = ../AberToolExtension.podspec; sourceTree = "<group>"; };
+		B15879620E5EE8777FFCB9B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B70BBB513140054E38CBAA00 /* AberToolExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AberToolExtension.podspec; path = ../AberToolExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				648F0BB3381278F081EC6BF9 /* Pods-AberToolExtension_Tests.debug.xcconfig */,
 				79DC260156CB99FB8D12EC50 /* Pods-AberToolExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -267,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AberToolExtension_Tests-checkManifestLockResult.txt",
 			);
@@ -289,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AberToolExtension_Example-checkManifestLockResult.txt",
 			);
@@ -311,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AberToolExtension_Example/Pods-AberToolExtension_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AberToolExtension/AberToolExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AberToolExtension.framework",
 			);
