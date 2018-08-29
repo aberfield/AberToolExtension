@@ -27,7 +27,9 @@ TODO: Add long description of the pod here.一些常用的第三方工具类
   s.author           = { 'aberfield' => 'liufangyou521@163.com' }
   s.source           = { :git => 'https://github.com/aberfield/AberToolExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift.version    = '4.0'
+  
+  s.swift_version    = '4.0'
+  
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AberToolExtension/Classes/**/*'
