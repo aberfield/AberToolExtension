@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AberToolExtension_Example' do
+  pod 'AberToolExtension', :path => '../'
+
+  target 'AberToolExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
