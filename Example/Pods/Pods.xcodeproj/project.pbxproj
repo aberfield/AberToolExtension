@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF41FA53BCBC5DE8F7B2837E0A31F8F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA71BA30C2EC8B63DAE5AAD69147AA /* ReplaceMe.swift */; };
 		38C5D1C77B54831B773E1D516A3E0F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4D1B19B32A0615D11E847918932EFA19 /* Pods-AberToolExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88951146E9D23515D35EC8D9224C880 /* Pods-AberToolExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A777F7573501D23D2C56992D2B83B1C /* Pods-AberToolExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DF98BDF4ADACC5141083CF7EA7A3E6 /* Pods-AberToolExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BA89F28AAEECBD8E920C49FA9574754 /* Pods-AberToolExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8C7F81633F4EB9E99F1F50A86C10BB /* Pods-AberToolExtension_Tests-dummy.m */; };
 		7A52CBB927F2C3AA4BB4DFD590C787FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A296A8FC2136906200517E6A /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296A8F82136906100517E6A /* FontExtension.swift */; };
+		A296A8FD2136906200517E6A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296A8F92136906100517E6A /* UIImage.swift */; };
+		A296A8FE2136906200517E6A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296A8FA2136906100517E6A /* UIButton.swift */; };
+		A296A8FF2136906200517E6A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296A8FB2136906100517E6A /* DateExtension.swift */; };
 		A430B7872AD2476B42DCCD38C0B6B48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D56DA2BA3108978BE087414086DC3CD3 /* AberToolExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2967C6DD61D25EE2C8509EB1C4869A3F /* AberToolExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB76231F2BF91304735789B9BED63792 /* AberToolExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB862D4B8DA90585399291B851A6B240 /* AberToolExtension-dummy.m */; };
@@ -39,24 +42,27 @@
 /* Begin PBXFileReference section */
 		05DF98BDF4ADACC5141083CF7EA7A3E6 /* Pods-AberToolExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AberToolExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		0AC9A19FDC4E52F2CBE7ECD8735586D2 /* Pods-AberToolExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AberToolExtension_Example.modulemap"; sourceTree = "<group>"; };
-		17B8EE18DF9E03C8BE83B7CCF28BBD64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		181E389FB68305FEDC529979919424A1 /* Pods_AberToolExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AberToolExtension_Example.framework; path = "Pods-AberToolExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B8EE18DF9E03C8BE83B7CCF28BBD64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		181E389FB68305FEDC529979919424A1 /* Pods_AberToolExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AberToolExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD12D58BC09ACBBD812B283E4AC0549 /* Pods-AberToolExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2967C6DD61D25EE2C8509EB1C4869A3F /* AberToolExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AberToolExtension-umbrella.h"; sourceTree = "<group>"; };
 		2A7E892781E6E7A6BACFB35CFC06C259 /* Pods-AberToolExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AberToolExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		2C0E09EED58D31DE93927C61B3B811C6 /* AberToolExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AberToolExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3D29DAD888893999F9E08572570E246B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C0E09EED58D31DE93927C61B3B811C6 /* AberToolExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AberToolExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D29DAD888893999F9E08572570E246B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		40C0402D2E7BA5D6E2445FD8791BF6D0 /* Pods-AberToolExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AberToolExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4626B42FB345630D9798A756CE484708 /* Pods-AberToolExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5878A8650D74E2F4F33C199A4B3D8F69 /* Pods_AberToolExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AberToolExtension_Tests.framework; path = "Pods-AberToolExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5878A8650D74E2F4F33C199A4B3D8F69 /* Pods_AberToolExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AberToolExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A61BEF3A76167E5A6D638C293C2A6FD /* AberToolExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AberToolExtension.framework; path = AberToolExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A61BEF3A76167E5A6D638C293C2A6FD /* AberToolExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AberToolExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE2A5C7C203BA11E7C0DC176BD1E3DE /* Pods-AberToolExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AberToolExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B0879BA80983A97424F6DB97AAAE836 /* AberToolExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AberToolExtension-Info.plist"; sourceTree = "<group>"; };
 		92888DEB8DBA0C3F34DA841A05961A82 /* Pods-AberToolExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AberToolExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C3B0D82DB6503D140B581CB0561E8BC /* AberToolExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AberToolExtension-prefix.pch"; sourceTree = "<group>"; };
-		9CCA71BA30C2EC8B63DAE5AAD69147AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AberToolExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A296A8F82136906100517E6A /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		A296A8F92136906100517E6A /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A296A8FA2136906100517E6A /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		A296A8FB2136906100517E6A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A4BDE60AA68B4DA753C544743ABADE38 /* Pods-AberToolExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AA321D9EF26CE5FE4B3CF6E2D227F9C6 /* Pods-AberToolExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B584D0C5097FFBA43F0991AB2B467EAD /* AberToolExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AberToolExtension.modulemap; sourceTree = "<group>"; };
@@ -205,7 +211,10 @@
 		AFD8FFF263061CEB934CF2CE0B707366 /* AberToolExtension */ = {
 			isa = PBXGroup;
 			children = (
-				9CCA71BA30C2EC8B63DAE5AAD69147AA /* ReplaceMe.swift */,
+				A296A8FB2136906100517E6A /* DateExtension.swift */,
+				A296A8F82136906100517E6A /* FontExtension.swift */,
+				A296A8FA2136906100517E6A /* UIButton.swift */,
+				A296A8F92136906100517E6A /* UIImage.swift */,
 				39930A178773A83731926337BBB79ADB /* Pod */,
 				29D37A1000A3C13229FF9A5F83AF69B9 /* Support Files */,
 			);
@@ -380,8 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A296A8FE2136906200517E6A /* UIButton.swift in Sources */,
+				A296A8FF2136906200517E6A /* DateExtension.swift in Sources */,
+				A296A8FC2136906200517E6A /* FontExtension.swift in Sources */,
+				A296A8FD2136906200517E6A /* UIImage.swift in Sources */,
 				DB76231F2BF91304735789B9BED63792 /* AberToolExtension-dummy.m in Sources */,
-				1CF41FA53BCBC5DE8F7B2837E0A31F8F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,8 +471,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -555,8 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
