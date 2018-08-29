@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AberToolExtension'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '一些常用的第三方工具类'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.一些常用的第三方工具类
   
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AberToolExtension/Classes/**/*'
+  s.source_files = 'AberToolExtension/**/*'
   
   # s.resource_bundles = {
   #   'AberToolExtension' => ['AberToolExtension/Assets/*.png']
