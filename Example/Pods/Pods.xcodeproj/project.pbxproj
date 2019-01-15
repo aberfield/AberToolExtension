@@ -14,6 +14,9 @@
 		7A52CBB927F2C3AA4BB4DFD590C787FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A22E16E521A2952E002B8973 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E16E421A2952E002B8973 /* Then.swift */; };
 		A296A9072136A44600517E6A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296A9062136A44600517E6A /* DateExtension.swift */; };
+		A29C7FDC21EDB80500E14971 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C7FDB21EDB80400E14971 /* Array.swift */; };
+		A29C7FDE21EDC02200E14971 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C7FDD21EDC02200E14971 /* NibLoadable.swift */; };
+		A29C7FE021EDC09400E14971 /* BSTDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C7FDF21EDC09400E14971 /* BSTDeviceInfo.swift */; };
 		A430B7872AD2476B42DCCD38C0B6B48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D56DA2BA3108978BE087414086DC3CD3 /* AberToolExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2967C6DD61D25EE2C8509EB1C4869A3F /* AberToolExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB76231F2BF91304735789B9BED63792 /* AberToolExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB862D4B8DA90585399291B851A6B240 /* AberToolExtension-dummy.m */; };
@@ -59,6 +62,9 @@
 		9C3B0D82DB6503D140B581CB0561E8BC /* AberToolExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AberToolExtension-prefix.pch"; sourceTree = "<group>"; };
 		A22E16E421A2952E002B8973 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		A296A9062136A44600517E6A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = AberToolExtension/DateExtension.swift; sourceTree = "<group>"; };
+		A29C7FDB21EDB80400E14971 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		A29C7FDD21EDC02200E14971 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		A29C7FDF21EDC09400E14971 /* BSTDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTDeviceInfo.swift; sourceTree = "<group>"; };
 		A4BDE60AA68B4DA753C544743ABADE38 /* Pods-AberToolExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AA321D9EF26CE5FE4B3CF6E2D227F9C6 /* Pods-AberToolExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AberToolExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B584D0C5097FFBA43F0991AB2B467EAD /* AberToolExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AberToolExtension.modulemap; sourceTree = "<group>"; };
@@ -207,6 +213,9 @@
 		AFD8FFF263061CEB934CF2CE0B707366 /* AberToolExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A29C7FDF21EDC09400E14971 /* BSTDeviceInfo.swift */,
+				A29C7FDD21EDC02200E14971 /* NibLoadable.swift */,
+				A29C7FDB21EDB80400E14971 /* Array.swift */,
 				A296A9062136A44600517E6A /* DateExtension.swift */,
 				A22E16E421A2952E002B8973 /* Then.swift */,
 				39930A178773A83731926337BBB79ADB /* Pod */,
@@ -389,7 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB76231F2BF91304735789B9BED63792 /* AberToolExtension-dummy.m in Sources */,
+				A29C7FDC21EDB80500E14971 /* Array.swift in Sources */,
 				A22E16E521A2952E002B8973 /* Then.swift in Sources */,
+				A29C7FE021EDC09400E14971 /* BSTDeviceInfo.swift in Sources */,
+				A29C7FDE21EDC02200E14971 /* NibLoadable.swift in Sources */,
 				A296A9072136A44600517E6A /* DateExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
