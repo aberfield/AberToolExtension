@@ -51,4 +51,23 @@ extension Array where Element: Equatable {
     mutating func removeDuplicateElements() {
         self = self.reduce([]){ $0.contains($1) ? $0 : $0 + [$1] }
     }
+
+
+    /// 删除所有重复的元素
+    ///
+    /// - Parameter item: 需要删除的元素
+    /// - Returns: 已删除元素数组
+    @discardableResult public mutating func removeAll(_ item: Element) -> [Element] {
+        removeAll{ $0 == item}
+        return self
+    }
+
+    public mutating func removeDuplicates() {
+        self = reduce(into: [Element](), { (result, item) in
+            if !result.contains(item) {
+                result.append(item)
+            }
+        })
+
+    }
 }

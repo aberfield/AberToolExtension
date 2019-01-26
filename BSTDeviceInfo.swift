@@ -150,7 +150,7 @@ struct DeviceSize {
         
         if #available(iOS 11.0, *) {
             let mainWindow = UIApplication.shared.delegate?.window
-            if let m = mainWindow, m?.safeAreaInsets.bottom > 0 {
+            if  let bottom = mainWindow??.safeAreaInsets.bottom, bottom > 0.0 {
                 return true
             }
         }
