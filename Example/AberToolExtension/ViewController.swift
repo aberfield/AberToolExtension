@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         var a = [1,2,1,2,3,4,5]
         a.removeDuplicates()
         print(a)
+        print(a)
+        print(a)
+        print(a)
+        print(a)
 
     }
 
