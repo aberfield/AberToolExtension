@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         a.removeDuplicates()
         print(a)
         print(a)
+        print(a)
+        print(a)
+        print(a)
 
     }
 
